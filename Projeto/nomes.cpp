@@ -56,27 +56,7 @@ typedef struct {
  	}
  	cout << endl;
  }
-/*
- ELEMENTO dequeue(){
-    ELEMENTO temp;
-    temp.nome = "";
-    temp.idade = -1;
-    if(fila->prox == NULL ) {
-        cout << "Nenhum cliente na fila";
-    } else {
-        FILA noAnterior = fila;
-        FILA noAtual = fila;
-     	while(noAtual->prox != NULL){
-     		noAnterior = noAtual;
-     		noAtual = noAtual->prox;
-     	}
-     	noAnterior->prox = NULL;
-        temp = noAnterior->cliente;
-     	free(noAnterior);
-    }
-    return temp;
- }
-*/
+
  int numero_de_inscritos(LISTA lista_de_candidados){
      LISTA lista_local = lista_de_candidados;
  	int cont = 0;
